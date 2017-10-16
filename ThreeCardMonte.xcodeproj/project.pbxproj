@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB707411F953C15001DEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB707401F953C15001DEA18 /* AppDelegate.swift */; };
+		CFB707431F953C15001DEA18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB707421F953C15001DEA18 /* ViewController.swift */; };
+		CFB707461F953C15001DEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB707441F953C15001DEA18 /* Main.storyboard */; };
+		CFB707481F953C15001DEA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB707471F953C15001DEA18 /* Assets.xcassets */; };
+		CFB7074B1F953C15001DEA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB707491F953C15001DEA18 /* LaunchScreen.storyboard */; };
+		CFB707561F953C15001DEA18 /* ThreeCardMonteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB707551F953C15001DEA18 /* ThreeCardMonteTests.swift */; };
+		CFB707611F953C15001DEA18 /* ThreeCardMonteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB707601F953C15001DEA18 /* ThreeCardMonteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB707521F953C15001DEA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB707351F953C15001DEA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB7073C1F953C15001DEA18;
+			remoteInfo = ThreeCardMonte;
+		};
+		CFB7075D1F953C15001DEA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB707351F953C15001DEA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB7073C1F953C15001DEA18;
+			remoteInfo = ThreeCardMonte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFB7073D1F953C15001DEA18 /* ThreeCardMonte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeCardMonte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB707401F953C15001DEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB707421F953C15001DEA18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFB707451F953C15001DEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB707471F953C15001DEA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB7074A1F953C15001DEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB7074C1F953C15001DEA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB707511F953C15001DEA18 /* ThreeCardMonteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardMonteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB707551F953C15001DEA18 /* ThreeCardMonteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardMonteTests.swift; sourceTree = "<group>"; };
+		CFB707571F953C15001DEA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB7075C1F953C15001DEA18 /* ThreeCardMonteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeCardMonteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB707601F953C15001DEA18 /* ThreeCardMonteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCardMonteUITests.swift; sourceTree = "<group>"; };
+		CFB707621F953C15001DEA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB7073A1F953C15001DEA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB7074E1F953C15001DEA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB707591F953C15001DEA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB707341F953C15001DEA18 = {
+			isa = PBXGroup;
+			children = (
+				CFB7073F1F953C15001DEA18 /* ThreeCardMonte */,
+				CFB707541F953C15001DEA18 /* ThreeCardMonteTests */,
+				CFB7075F1F953C15001DEA18 /* ThreeCardMonteUITests */,
+				CFB7073E1F953C15001DEA18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB7073E1F953C15001DEA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB7073D1F953C15001DEA18 /* ThreeCardMonte.app */,
+				CFB707511F953C15001DEA18 /* ThreeCardMonteTests.xctest */,
+				CFB7075C1F953C15001DEA18 /* ThreeCardMonteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB7073F1F953C15001DEA18 /* ThreeCardMonte */ = {
+			isa = PBXGroup;
+			children = (
+				CFB707401F953C15001DEA18 /* AppDelegate.swift */,
+				CFB707421F953C15001DEA18 /* ViewController.swift */,
+				CFB707441F953C15001DEA18 /* Main.storyboard */,
+				CFB707471F953C15001DEA18 /* Assets.xcassets */,
+				CFB707491F953C15001DEA18 /* LaunchScreen.storyboard */,
+				CFB7074C1F953C15001DEA18 /* Info.plist */,
+			);
+			path = ThreeCardMonte;
+			sourceTree = "<group>";
+		};
+		CFB707541F953C15001DEA18 /* ThreeCardMonteTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB707551F953C15001DEA18 /* ThreeCardMonteTests.swift */,
+				CFB707571F953C15001DEA18 /* Info.plist */,
+			);
+			path = ThreeCardMonteTests;
+			sourceTree = "<group>";
+		};
+		CFB7075F1F953C15001DEA18 /* ThreeCardMonteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB707601F953C15001DEA18 /* ThreeCardMonteUITests.swift */,
+				CFB707621F953C15001DEA18 /* Info.plist */,
+			);
+			path = ThreeCardMonteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB7073C1F953C15001DEA18 /* ThreeCardMonte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB707651F953C15001DEA18 /* Build configuration list for PBXNativeTarget "ThreeCardMonte" */;
+			buildPhases = (
+				CFB707391F953C15001DEA18 /* Sources */,
+				CFB7073A1F953C15001DEA18 /* Frameworks */,
+				CFB7073B1F953C15001DEA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeCardMonte;
+			productName = ThreeCardMonte;
+			productReference = CFB7073D1F953C15001DEA18 /* ThreeCardMonte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFB707501F953C15001DEA18 /* ThreeCardMonteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB707681F953C15001DEA18 /* Build configuration list for PBXNativeTarget "ThreeCardMonteTests" */;
+			buildPhases = (
+				CFB7074D1F953C15001DEA18 /* Sources */,
+				CFB7074E1F953C15001DEA18 /* Frameworks */,
+				CFB7074F1F953C15001DEA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB707531F953C15001DEA18 /* PBXTargetDependency */,
+			);
+			name = ThreeCardMonteTests;
+			productName = ThreeCardMonteTests;
+			productReference = CFB707511F953C15001DEA18 /* ThreeCardMonteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFB7075B1F953C15001DEA18 /* ThreeCardMonteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB7076B1F953C15001DEA18 /* Build configuration list for PBXNativeTarget "ThreeCardMonteUITests" */;
+			buildPhases = (
+				CFB707581F953C15001DEA18 /* Sources */,
+				CFB707591F953C15001DEA18 /* Frameworks */,
+				CFB7075A1F953C15001DEA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB7075E1F953C15001DEA18 /* PBXTargetDependency */,
+			);
+			name = ThreeCardMonteUITests;
+			productName = ThreeCardMonteUITests;
+			productReference = CFB7075C1F953C15001DEA18 /* ThreeCardMonteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB707351F953C15001DEA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Caroline Cruz";
+				TargetAttributes = {
+					CFB7073C1F953C15001DEA18 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CFB707501F953C15001DEA18 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFB7073C1F953C15001DEA18;
+					};
+					CFB7075B1F953C15001DEA18 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFB7073C1F953C15001DEA18;
+					};
+				};
+			};
+			buildConfigurationList = CFB707381F953C15001DEA18 /* Build configuration list for PBXProject "ThreeCardMonte" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB707341F953C15001DEA18;
+			productRefGroup = CFB7073E1F953C15001DEA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB7073C1F953C15001DEA18 /* ThreeCardMonte */,
+				CFB707501F953C15001DEA18 /* ThreeCardMonteTests */,
+				CFB7075B1F953C15001DEA18 /* ThreeCardMonteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB7073B1F953C15001DEA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB7074B1F953C15001DEA18 /* LaunchScreen.storyboard in Resources */,
+				CFB707481F953C15001DEA18 /* Assets.xcassets in Resources */,
+				CFB707461F953C15001DEA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB7074F1F953C15001DEA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB7075A1F953C15001DEA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB707391F953C15001DEA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB707431F953C15001DEA18 /* ViewController.swift in Sources */,
+				CFB707411F953C15001DEA18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB7074D1F953C15001DEA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB707561F953C15001DEA18 /* ThreeCardMonteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB707581F953C15001DEA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB707611F953C15001DEA18 /* ThreeCardMonteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB707531F953C15001DEA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB7073C1F953C15001DEA18 /* ThreeCardMonte */;
+			targetProxy = CFB707521F953C15001DEA18 /* PBXContainerItemProxy */;
+		};
+		CFB7075E1F953C15001DEA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB7073C1F953C15001DEA18 /* ThreeCardMonte */;
+			targetProxy = CFB7075D1F953C15001DEA18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFB707441F953C15001DEA18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB707451F953C15001DEA18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB707491F953C15001DEA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB7074A1F953C15001DEA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB707631F953C15001DEA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB707641F953C15001DEA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB707661F953C15001DEA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFTDT2D84K;
+				INFOPLIST_FILE = ThreeCardMonte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.ThreeCardMonte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFB707671F953C15001DEA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFTDT2D84K;
+				INFOPLIST_FILE = ThreeCardMonte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.ThreeCardMonte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFB707691F953C15001DEA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFTDT2D84K;
+				INFOPLIST_FILE = ThreeCardMonteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.ThreeCardMonteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardMonte.app/ThreeCardMonte";
+			};
+			name = Debug;
+		};
+		CFB7076A1F953C15001DEA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFTDT2D84K;
+				INFOPLIST_FILE = ThreeCardMonteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.ThreeCardMonteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeCardMonte.app/ThreeCardMonte";
+			};
+			name = Release;
+		};
+		CFB7076C1F953C15001DEA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFTDT2D84K;
+				INFOPLIST_FILE = ThreeCardMonteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.ThreeCardMonteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeCardMonte;
+			};
+			name = Debug;
+		};
+		CFB7076D1F953C15001DEA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFTDT2D84K;
+				INFOPLIST_FILE = ThreeCardMonteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xcode.ThreeCardMonteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeCardMonte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB707381F953C15001DEA18 /* Build configuration list for PBXProject "ThreeCardMonte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB707631F953C15001DEA18 /* Debug */,
+				CFB707641F953C15001DEA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB707651F953C15001DEA18 /* Build configuration list for PBXNativeTarget "ThreeCardMonte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB707661F953C15001DEA18 /* Debug */,
+				CFB707671F953C15001DEA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB707681F953C15001DEA18 /* Build configuration list for PBXNativeTarget "ThreeCardMonteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB707691F953C15001DEA18 /* Debug */,
+				CFB7076A1F953C15001DEA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB7076B1F953C15001DEA18 /* Build configuration list for PBXNativeTarget "ThreeCardMonteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB7076C1F953C15001DEA18 /* Debug */,
+				CFB7076D1F953C15001DEA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB707351F953C15001DEA18 /* Project object */;
+}
