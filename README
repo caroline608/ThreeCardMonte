@@ -12,3 +12,5 @@ Queen wins.
 
 
 some changes at the end
+
+In case you delete everything in vi type ":q" to quit without saving
