@@ -97,11 +97,10 @@
 		CFB7073F1F953C15001DEA18 /* ThreeCardMonte */ = {
 			isa = PBXGroup;
 			children = (
-				CFB707401F953C15001DEA18 /* AppDelegate.swift */,
+				CFB7076F1F953C46001DEA18 /* Support */,
 				CFB707421F953C15001DEA18 /* ViewController.swift */,
 				CFB707441F953C15001DEA18 /* Main.storyboard */,
 				CFB707471F953C15001DEA18 /* Assets.xcassets */,
-				CFB707491F953C15001DEA18 /* LaunchScreen.storyboard */,
 				CFB7074C1F953C15001DEA18 /* Info.plist */,
 			);
 			path = ThreeCardMonte;
@@ -123,6 +122,15 @@
 				CFB707621F953C15001DEA18 /* Info.plist */,
 			);
 			path = ThreeCardMonteUITests;
+			sourceTree = "<group>";
+		};
+		CFB7076F1F953C46001DEA18 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CFB707401F953C15001DEA18 /* AppDelegate.swift */,
+				CFB707491F953C15001DEA18 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
